@@ -1,0 +1,52 @@
+.wrapper {
+  background-color: #375891;
+  height: 200vh;
+  color: #fff;
+}
+.wrapper h1 {
+  text-align: center;
+  padding: 15px 0;
+  letter-spacing: 3px;
+}
+.wrapper .form-add {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  //* display: none; /////////////////////
+}
+
+.wrapper .form-add form {
+  width: 100%;
+  // margin-left: 150px;
+}
+.wrapper .form-add form label {
+  margin-left: 555px;
+  font-size: 18px;
+  padding: 20px 0;
+}
+.wrapper .form-add form input {
+  width: 30%;
+  display: block;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 10px;
+  outline: none;
+  margin: 10px auto;
+  padding: 0 10px;
+}
+.wrapper .form-add form input:focus {
+  border: 2px solid orange;
+}
+
+.wrapper .btn-addUser {
+  padding: 8px 15px;
+  border-radius: 10px;
+  margin: 20px auto;
+  display: block;
+  background-color: aquamarine;
+}
+
+.wrapper .btn-addUser :hover {
+  transform: scale(1.1);
+}
